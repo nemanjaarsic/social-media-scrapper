@@ -21,16 +21,16 @@ func NewTwitterController(svcs *service.Services) *TwitterController {
 	return ctrl
 }
 
-// @Summary      Show list of followers
-// @Description  This endpoint will retrive followers for specified user, if username exists
-// @Tags         twitter
-// @Accept       json
-// @Produce      json
-// @Param        username   path   string  true  "Twitter username"
-// @Success      200  {array}  model.TwitterUserFollowers
-// @Failure      400
-// @Failure      500
-// @Router       /twitter/{username}/followers [get]
+//	@Summary		Show list of followers
+//	@Description	This endpoint will retrive followers for specified user, if username exists
+//	@Tags			twitter
+//	@Accept			json
+//	@Produce		json
+//	@Param			username	path	string	true	"Twitter username"
+//	@Success		200			{array}	model.TwitterUserFollowers
+//	@Failure		400
+//	@Failure		500
+//	@Router			/twitter/{username}/followers [get]
 func (c *TwitterController) GetFollowers(w http.ResponseWriter, r *http.Request) {
 	ctx := r.Context()
 	md, _ := metadata.FromOutgoingContext(ctx)
@@ -60,16 +60,16 @@ func (c *TwitterController) GetFollowers(w http.ResponseWriter, r *http.Request)
 	w.Write(response)
 }
 
-// @Summary      Show list of likes
-// @Description  This endpoint will retrive likes for specified user, if username exists
-// @Tags         twitter
-// @Accept       json
-// @Produce      json
-// @Param        username   path   string  true  "Twitter username"
-// @Success      200  {array}  model.TwitterUserLikes
-// @Failure      400
-// @Failure      500
-// @Router       /twitter/{username}/likes [get]
+//	@Summary		Show list of likes
+//	@Description	This endpoint will retrive likes for specified user, if username exists
+//	@Tags			twitter
+//	@Accept			json
+//	@Produce		json
+//	@Param			username	path	string	true	"Twitter username"
+//	@Success		200			{array}	model.TwitterUserLikes
+//	@Failure		400
+//	@Failure		500
+//	@Router			/twitter/{username}/likes [get]
 func (c *TwitterController) GetLikes(w http.ResponseWriter, r *http.Request) {
 	ctx := r.Context()
 	md, _ := metadata.FromOutgoingContext(ctx)

@@ -24,14 +24,14 @@ var (
 	repos       repo.Repositories
 )
 
-// @title S.M.S. API
-// @version 1.0
-// @description This is a simple social media scrapper
-// @description
-// @description NOTE: To get userID required for twitch endpoints(followers, following) use twtitch/{username}
-// @description to get details for user. One of filed is ID you can use that value in before mentiond endpoints.
+//	@title			S.M.S. API
+//	@version		1.0
+//	@description	This is a simple social media scrapper
+//	@description
+//	@description	NOTE: To get userID required for twitch endpoints(followers, following) use twtitch/{username}
+//	@description	to get details for user. One of filed is ID you can use that value in before mentiond endpoints.
 
-// @BasePath /api
+//	@BasePath	/api
 
 func main() {
 	flag.Parse()
