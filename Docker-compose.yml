@@ -1,0 +1,8 @@
+version: "3.9"
+services:
+  sms-service:
+    build:
+      dockerfile: Dockerfile
+      context: .
+    ports:
+    - "40080:40080"

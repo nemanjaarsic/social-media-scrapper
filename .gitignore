@@ -1,0 +1,9 @@
+config.json
+fly.toml
+DBUILD
+.vscode
+
+__debug_bin
+
+social-media-api
+docs/*
