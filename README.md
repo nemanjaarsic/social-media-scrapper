@@ -19,7 +19,7 @@ go run .
 ## Swagger
 If you are running app locally, and want to use swagger, first you will need to initialize documentation files by running `swag init`. Now you can run the app and navigate to localhost:port/swagger/index.html (default-port=40080) and use api from there. [More about swag.](https://github.com/swaggo/swag)
 
-# Developer notes
+## Developer notes
 ### Twitter
 * To get data from twitter api I decidet to use [go-twitterV2](https://pkg.go.dev/github.com/g8rswimmer/go-twitter/v2@v2.1.5) library. It is easy to use and it had even more functionality than I needed at this time. v2 of the library is new so changes or even breaking changes could cause problems in the future on the outher hand it save development time right now.
 * In order to make using api as easy as possible I decided to implement authentication middleware. From users perspective, it is easier to copy some username from twitter and not wory about ids but most of the endpoints want to receive id instead of username. There's where the middleware comes in handy, for every twitter request it takse username input, validates it and sends coresponding id to other layers.
