@@ -17,7 +17,7 @@ go run .
 ***Note:** in first two approaches you will have to add 'api token' in order to get any results from the api*
 
 ## Swagger
-If you are running app locally, and want to use swagger, first you will need to initialize documentation files by running `swag init`. Now you can run the app and navigate to localhost:port/swagger/index.html (default-port=40080) and use api from there. [More about swag](https://github.com/swaggo/swag)
+If you are running app locally, and want to use swagger, first you will need to initialize documentation files by running `swag init`. Now you can run the app and navigate to localhost:port/swagger/index.html (default-port=40080) and use api from there. [More about swag.](https://github.com/swaggo/swag)
 
 # Developer notes
 ### Twitter
