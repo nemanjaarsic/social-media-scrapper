@@ -28,8 +28,8 @@ var (
 //	@version		1.0
 //	@description	This is a simple social media scrapper
 //	@description
-//	@description	NOTE: To get userID required for twitch endpoints(followers, following) use twtitch/{username}
-//	@description	to get details for user. One of filed is ID you can use that value in before mentiond endpoints.
+//	@description	NOTE: To get userID required for twitch endpoints(followers, following) use twitch/{username}
+//	@description	to get details for a user. One of the fileds is ID you can use that value in aforementioned endpoints.
 
 //	@BasePath	/api
 
