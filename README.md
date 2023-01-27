@@ -29,3 +29,4 @@ If you are running app locally, and want to use swagger, first you will need to 
 * Make http error models for better error handling and more meaningful messages.
 * Extend authentication middleware to cover twitch endpoints as well.
 * Add db for cashing users.
+* Implement better logging.
