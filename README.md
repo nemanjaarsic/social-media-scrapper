@@ -24,7 +24,7 @@ If you are running app locally, and want to use swagger, first you will need to 
 * To get data from twitter api I decidet to use [go-twitterV2](https://pkg.go.dev/github.com/g8rswimmer/go-twitter/v2@v2.1.5) library. It is easy to use and it had even more functionality than I needed at this time. v2 of the library is new so changes or even breaking changes could cause problems in the future on the outher hand it save development time right now.
 * In order to make using api as easy as possible I decided to implement authentication middleware. From users perspective, it is easier to copy some username from twitter and not wory about ids but most of the endpoints want to receive id instead of username. There's where the middleware comes in handy, for every twitter request it takse username input, validates it and sends coresponding id to other layers.
 ### Twitch
-* I didn't find good or any library for twitch, so I wrote a small client, with just the requests that were necessary for this demo. Client is easy to extend and could have any matching request to twitch api.
+* I didn't find any good library for twitch, so I wrote a small client, with just the requests that were necessary for this demo. Client is easy to extend and could have any matching request to twitch api.
 ### Possible improvements
 * Make http error models for better error handling and more meaningful messages.
 * Extend authentication middleware to cover twitch endpoints as well.
