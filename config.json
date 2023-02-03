@@ -1,0 +1,14 @@
+{
+    "api_port": "40080",
+    "host": "https://localhost",
+    "twitter": {
+        "host": "https://api.twitter.com"
+    },
+    "twitch": {
+        "host": "https://api.twitch.tv"
+    },
+    "swagger": {
+        "host": "localhost:40080",
+        "scheme": "http"
+    }
+}
