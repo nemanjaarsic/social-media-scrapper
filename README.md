@@ -12,7 +12,7 @@ go run .
 ```
 * To run via docker container, clone the project and then run `docker compose up` this will use docker files (dockerfile and docker-compose) to create an image and a container. Then you will be able to call apis.
 
-* Finaly you could just click the following [link](https://fly-sms.fly.dev/swagger/index.html) which will take you to the api swagger page. From there you will be able to use any endpoint. I deployed docker image of the app on [fly](https://fly.io), it's a heroku alternative since latter doesn't have free tier anymore.
+* Finaly you could just click the following [link](https://fly-sms.fly.dev/swagger/index.html) (currently it's not running) which will take you to the api swagger page. From there you will be able to use any endpoint. I deployed docker image of the app on [fly](https://fly.io), it's a heroku alternative since latter doesn't have free tier anymore.
 
 ***Note:** in first two approaches you will have to add 'api token' in order to get any results from the api*
 
